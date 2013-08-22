@@ -1,0 +1,33 @@
+{
+    "name":         "coolcsn/csn-search",
+    "description":  "Zend Framework 2 Module for Search",
+    "type":         "library",
+    "license":      "BSD-3-Clause",
+    "homepage":     "https://github.com/coolcsn/CsnSearch",
+    "keywords": [
+        "zf2",
+        "csn-search"
+    ],
+    "authors": [
+		{
+            "name":      "Stoyan Cheresharov",
+            "email":     "stoyancheresharov@gmail.com",
+            "homepage":  "http://coolcsn.com/",
+            "role":      "Developer"
+        },
+		{
+            "name":      "Nikolay Ivanov",
+            "email":     "nikolay.boyanov.ivanov@gmail.com",
+            "role":      "Developer"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.3.3"
+    },
+    "autoload": {
+        "psr-0": {
+            "CsnSearch\\": "src/"
+        }
+    }
+}
